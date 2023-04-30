@@ -1,0 +1,56 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Open+Sans:wght@600&family=Poppins:wght@300;400&family=Quattrocento+Sans:wght@700&family=Roboto+Slab&family=Roboto:ital@0;1&family=Ruda&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: "Poppins";
+}
+.task-container{
+    width: 450px;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 6px;
+   
+}
+.todo-task{
+    
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 10px;
+}
+input,.add-btn,.edit-btn{
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+.add-btn{
+   color: #ffffff;
+   background-color: blue;
+}
+.task-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 10px 0px;
+    width: 97%;
+    border-radius: 4px;
+    padding: 0px 8px;
+}
+.task-item-btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.edit-btn{
+    display: none;
+    color: #ffffff;
+    background-color: red;
+}
